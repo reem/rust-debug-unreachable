@@ -1,0 +1,16 @@
+[package]
+
+name = "debug_unreachable"
+version = "0.0.1"
+authors = ["Jonathan Reem <jonathan.reem@gmail.com>"]
+repository = "https://github.com/reem/rust-debug-unreachable.git"
+description = "unreachable!() in debug, std::intrinsics::unreachable() in release."
+readme = "README.md"
+license = "MIT"
+
+[lib]
+
+name = "debug_unreachable"
+path = "src/lib.rs"
+plugin = true
+
