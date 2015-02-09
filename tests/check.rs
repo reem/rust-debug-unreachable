@@ -1,6 +1,4 @@
-#![feature(phase)]
-
-#[phase(plugin)]
+#[macro_use]
 extern crate debug_unreachable;
 
 #[test]

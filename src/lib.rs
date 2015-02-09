@@ -1,5 +1,4 @@
 #![deny(missing_docs, warnings)]
-#![feature(macro_rules)]
 
 //! `unreachable!()` in debug builds, `intrinsics::unreachable` in release.
 
