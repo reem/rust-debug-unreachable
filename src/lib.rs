@@ -1,15 +1,16 @@
 #![deny(missing_docs, warnings)]
 
-//! `unreachable!()` in debug builds, `intrinsics::unreachable` in release.
+//! `panic!()` in debug builds, `intrinsics::unreachable` in release.
 
 #[macro_export]
-/// `unreachable!()` in debug builds, `intrinsics::unreachable` in release.
+/// `panic!()` in debug builds, `intrinsics::unreachable` in release.
 macro_rules! debug_unreachable {
-    () => {
+    () => { debug_unreachable!("entered unreachable code") };
+    ($e:expr) => {
         if cfg!(ndebug) {
-            ::std::intrinsics::unreachable()
+            ::std::intrinsics::unreachable();
         } else {
-            unreachable!()
+            panic!($e);
         }
     }
 }
