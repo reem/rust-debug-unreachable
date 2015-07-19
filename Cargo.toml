@@ -12,7 +12,6 @@ license = "MIT"
 
 name = "debug_unreachable"
 path = "src/lib.rs"
-plugin = true
 
 [dependencies]
 unreachable = "0"
