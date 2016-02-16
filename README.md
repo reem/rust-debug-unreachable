@@ -2,6 +2,8 @@
 
 > unreachable!() in debug, std::intrinsics::unreachable() in release.
 
+## [Documentation](https://crates.fyi/crates/debug_unreachable/0.1.0)
+
 ## Usage
 
 Use the crates.io repository; add this to your `Cargo.toml` along
@@ -9,7 +11,7 @@ with the rest of your dependencies:
 
 ```toml
 [dependencies]
-debug_unreachable = "^0.0.0"
+debug_unreachable = "0.1"
 ```
 
 ## Author
