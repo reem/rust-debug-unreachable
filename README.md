@@ -2,7 +2,7 @@
 
 > unreachable!() in debug, std::intrinsics::unreachable() in release.
 
-## [Documentation](https://crates.fyi/crates/debug_unreachable/0.1.0)
+## [Documentation](https://crates.fyi/crates/debug_unreachable/0.1.1)
 
 ## Usage
 
