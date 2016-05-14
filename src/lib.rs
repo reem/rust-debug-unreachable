@@ -1,5 +1,7 @@
 #![deny(missing_docs, warnings)]
 
+#![no_std]
+
 //! `panic!()` in debug builds, optimization hint in release.
 
 extern crate unreachable;
