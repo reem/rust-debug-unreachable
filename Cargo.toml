@@ -1,7 +1,7 @@
 [package]
 
 name = "debug_unreachable"
-version = "0.1.1"
+version = "0.1.2"
 authors = ["Jonathan Reem <jonathan.reem@gmail.com>"]
 repository = "https://github.com/reem/rust-debug-unreachable.git"
 description = "unreachable!() in debug, std::intrinsics::unreachable() in release."
@@ -14,5 +14,5 @@ name = "debug_unreachable"
 path = "src/lib.rs"
 
 [dependencies]
-unreachable = "0.1"
+unreachable = "1"
 
